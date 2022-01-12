@@ -1406,12 +1406,31 @@ video {
 
 .novedades-footer {
     display: block;
-    padding: 4.286rem 1.786rem 1.786rem 1.786rem;
+    padding: 2.286rem 1.786rem 1.786rem 1.786rem;
     background-color: #FAF8F5;
     font-size: 0.8rem;
     width: 100%;
     bottom: 0
 }
+
+.footer_txtpie_top {
+	margin-bottom: 15px;
+	font-size: 1.2rem;
+	font-family: sans-serif;
+}
+.footer_txtpie_bottom {
+	margin-bottom: 15px;
+	font-size: 1.4rem;
+	font-family: sans-serif;
+}
+.footer_txtpie_bottom_cursiva {
+	margin-bottom: 15px;
+	font-size: 1.3rem;
+	font-family: sans-serif;
+	font-style: italic;
+}
+
+
 
 @media (min-width: 768px) and (max-width: 992px) {
     .presentacion .presentacion-lineasActuacion__items-text {
@@ -1778,6 +1797,7 @@ video {
 .footer__logos {
     display: inline-block;
     margin-left: 44px;
+	margin-top: 10px;
 }
 
 .footer__logos:first-child {
@@ -1791,10 +1811,8 @@ video {
 .footer__logoGobEspaña {
     width: 336px;
 }
-
 .footer__logoRed {
     width: auto !important;
-    vertical-align: text-bottom !important;
     margin-bottom: 13px;
     margin-top: 13px;
     margin-left: 13px;
@@ -1802,40 +1820,14 @@ video {
 .footer__logoRed img {
     max-height: 42px !important;
 }
-
-.footer__logoAcoruña {
-    width: 263px
-}
-
-.footer__logoMadrid {
-    width: 147px
-}
-
-.footer__logoSantiago {
-    width: 312px
-}
-
-.footer__logoZaragoza {
-    width: 264px
-}
-
-.footer__logoCiudadesInteligentes {
-    width: 141px
-}
-
-.footer__logoUnionEuropea {
-    width: 355px;
-    margin-left: 88px
-}
-
 .footer__logoCiudadesAbiertas {
     width: 156px
 }
-
-.footer__bottom {
-    margin-top: 3.571rem;
-    position: relative
+.footer__logoUnionEuropea {
+    width: 125px;
+    margin-left: 65px;
 }
+
 
 .footer__navbar {
     position: absolute;
@@ -1877,7 +1869,6 @@ video {
         width: 274px;
     }
     .footer__logoRed {
-        vertical-align: text-bottom;
         margin-bottom: 7px;
         margin-top: 6px;
     }
@@ -1913,7 +1904,6 @@ video {
         width: 187px;
     }
     .footer__logoRed {
-        vertical-align: text-bottom;
         margin-bottom: 7px;
         margin-top: 4px;
     }
@@ -2013,7 +2003,7 @@ video {
         margin-bottom: 35px
     }
     .footer__logos-top {
-        position: relative
+        position: relative;
     }
     .footer__logoGobEspaña {
         width: 284px;
