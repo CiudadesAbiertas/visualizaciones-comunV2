@@ -17,6 +17,7 @@ Navegadores compatibles
 Esta visualización ha sido probada en los navedores:
 * Firefox 76
 * Google Chrome 81
+* Microsoft Edge 103.0
 * Internet explorer 11
 
 ------------

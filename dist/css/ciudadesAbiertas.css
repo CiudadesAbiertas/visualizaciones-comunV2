@@ -255,12 +255,12 @@ div.dt-button-collection {
   margin: 0px;
 }
 
-.amcharts-amexport-item.amcharts-amexport-item-level-0 {
+/*.amcharts-amexport-item.amcharts-amexport-item-level-0 {
     opacity: 1;
     width: 30px;
     min-height: 30px;
     transition: all 100ms ease-in-out 0s;
-}
+}*/
 
 .amcharts-amexport-item {
     position: relative;
